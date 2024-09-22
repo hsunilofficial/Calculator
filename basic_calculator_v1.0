@@ -1,0 +1,28 @@
+# Calculator
+#Will be extending the project to better versions. This is a hobby project.
+#basic_calculator
+#version No. 1.0
+
+operator = input("pick an operator (+, -, *, /) ")
+if operator == "+":
+   num1 = float(input())
+   num2 = float(input())
+   result = num1 + num2
+   print(f"{num1} plus {num2} equals {(round(result, 3))}")
+elif operator == "-":
+   num1 = float(input())
+   num2 = float(input())
+   result = num1 - num2
+   print(f"{num1} minus {num2} equals {(round(result, 3))}")
+elif operator == "*":
+   num1 = float(input())
+   num2 = float(input())
+   result = num1 * num2
+   print(f"{num1} multiplied by {num2} equals {(round(result, 3))}")
+elif operator == "/":
+   num1 = float(input())
+   num2 = float(input())
+   result = num1 / num2
+   print(f"{num1} divided by {num2} equals {(round(result, 3))}")
+else:
+   print("INVALID SELECTION! Please try again")
